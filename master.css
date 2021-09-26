@@ -36,8 +36,6 @@ header{
     height: 50px;
 }
 
-
-
 .content .aside-l{
     width: 50%;
     float: left;
@@ -94,7 +92,20 @@ nav ul li a{
 
 .text{
     float: left;
-    width: 34%;
+    width: 35%;
     margin-top: 40px;
     font-size: 13px;
+    font-weight: 500;
 }
+
+.button-h{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+i {
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.img-h img
