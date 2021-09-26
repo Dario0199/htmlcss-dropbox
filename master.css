@@ -17,8 +17,9 @@
 }
 
 .container2{
-    width: 77%;
+    width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
 .clearfix::after{
@@ -79,7 +80,7 @@ nav ul li a{
 /* hero */
 .hero{
     background: #b4d0e7;
-    height: 500px;
+    height: 530px;
 }
 
 .container2 h1{
@@ -92,9 +93,9 @@ nav ul li a{
 
 .text{
     float: left;
-    width: 35%;
+    width: 300px;
     margin-top: 40px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -108,4 +109,14 @@ i {
     font-size: 35px;
 }
 
-.img-h img
+.ing-h{
+    
+}
+
+.img-h img{
+    width: 650px;
+    height: auto;
+    float: right;
+    margin-top: 35px;
+
+}
