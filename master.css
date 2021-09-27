@@ -141,22 +141,35 @@ i {
     background: blue;
 }
 
+.main-header h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
 .column{
     margin: 0 auto;
 }
 
 aside {
     float: left;
-    width: calc(100% / 3);
+    width: 30%;
     height: auto;
     background: blue;
+    border: 1px solid gray;
 }
 
 section {
     float: left;
-    width: calc(100% / 3);
+    width: 30%;
     height: auto;
     background: blue;
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#duration-a{
+    margin-left: 10px;
 }
 
 
