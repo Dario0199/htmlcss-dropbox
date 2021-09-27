@@ -292,6 +292,7 @@ h6{
     right: 15px;
 }
 
+
 /* main partner */
 .partner-img img{
     width: 50%;
@@ -312,4 +313,40 @@ h6{
 
 .button-partner button{
     margin-top: 15px;
+}
+
+
+/* main-business */
+.title-business h3{
+    font-size: 28px;
+    margin-top: 70px ;
+}
+
+.Bsection {
+    float: left;
+    width: 30%;
+    background: blue;
+}
+
+.img2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Bsection img{
+    width: 100%;
+    height: auto;
+}
+
+.Bsection h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.Bsection a{
+    color: black;
+}
+
+.Bsection span{
+    font-size: 13px;
 }
