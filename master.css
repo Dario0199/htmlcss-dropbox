@@ -53,18 +53,20 @@
 /* header */
 header{
     height: 50px;
+    position: fixed;
+    background: white;
+    z-index: 1;
 }
 
 .content .aside-l{
     width: 50%;
     float: left;
     height: 50px;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .aside-l .logo{
     float: left;
-    vertical-align: middle;
 }
 
 .aside-l nav ul{
@@ -88,9 +90,24 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: 400;
-
+    font-weight: 500;
 }
+
+nav ul li:hover{
+    border-bottom: 3px solid #0061ff;
+}
+
+nav button{
+    border: none;
+    display: inline-block   ;
+    width: 50px;
+    height: 25px;
+    background: #0061ff;
+    margin-right: 10px;
+    color: white;
+    font-size: 12px;
+}
+
 .aside-r ul{
     float: right;
 }
@@ -117,9 +134,15 @@ nav ul li a{
     font-weight: 500;
 }
 
-.button-h{
+.button-h button{
     margin-top: 25px;
     margin-bottom: 10px;
+    border: none;
+    background: #0061ff;
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
 }
 
 i {
@@ -548,6 +571,7 @@ footer{
     padding-top: 60px;
     width: 20%;
     height: auto;
+    margin-bottom: 70pxs;
 
 }
 
@@ -563,4 +587,25 @@ footer{
     text-decoration: none;
     font-size: 12px;
     color: white;
+}
+
+footer .border{ 
+    width: 7%;
+    margin-top: 70px;
+}
+
+.language{
+    color:lightgray;
+}
+
+.language .fa-globe-americas{
+    font-size: 16px;
+}
+
+.language span{
+    font-size: 12px;
+}
+
+.language .fa-sort-up{
+    font-size: 10px;
 }
