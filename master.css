@@ -409,4 +409,31 @@ h6{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.designit{
+    background: #a2d39b;
+}
+
+.arizona{
+    background: #61082b;
+}
+
+.arizona img{
+    width: 120px;
+    height: autos;
+}
+
+.florida{
+    background: #0093ce;
+}
+
+.topps{
+    background: #ff1c1c;
+}
+
+.topps img{
+    width: 120px;
+    height: auto;
 }
