@@ -47,7 +47,6 @@
 
 .sidebar, .main-content{
     height: 750px;
-
 }
 
 /* header */
@@ -164,7 +163,6 @@ i {
     height: auto;
     float: right;
     margin-top: 35px;
-
 }
 
 /* column */
@@ -213,7 +211,6 @@ i {
 span{
     margin-top: 5px;
     margin-bottom: 5px;
-    
 }
 
 .main-icon{
@@ -296,8 +293,6 @@ h6{
     margin: 0 auto;
     border: 1px solid lightgray;
     margin-bottom: 100px;
-   
-   
 }
 
 .header-contact{
