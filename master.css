@@ -67,6 +67,11 @@ header{
 
 .aside-l .logo{
     float: left;
+    line-height: 50px;
+}
+
+.logo img{
+    vertical-align: text-bottom;
 }
 
 .aside-l nav ul{
@@ -181,15 +186,14 @@ i {
 .sidebar {
     float: left;
     width: 30%;
-    height: auto;
+    height: 800px;
     border: 1px solid lightgray;
 }
 
 .main-content {
     float: left;
     width: 30%;
-    height: auto;
-    
+    height: 800px;
     border: 1px solid lightgray;
     margin-left: 5%;
     margin-right: 5%;
@@ -248,17 +252,29 @@ h4{
     margin-bottom: 20px;
     margin-right: 5px;
     float: left;
+    color: #0061ff;
 }
 
 .button-col button{
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    border: none;
+    background: #0061ff;
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
+    
 }
 
 .link-col{
     font-size: 11px;
     margin-bottom: 20px;
+}
+
+.link-col a{
+    color: #0061ff;
 }
 
 .border{
@@ -309,10 +325,16 @@ h6{
     margin-bottom: 15px;
 }
 
-.button-contact{
+.button-contact button{
     position: absolute;
     top: -10px;
     right: 15px;
+    border: none;
+    background: #0061ff;
+    width: 220px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
 }
 
 
@@ -336,6 +358,10 @@ h6{
 
 .button-partner button{
     margin-top: 15px;
+    border: 1px solid black;
+    width: 150px;
+    height: 25px;
+    background: white;
 }
 
 
@@ -396,6 +422,8 @@ h6{
 .title-team a{
     font-size: 12px;
     font-weight: 500;
+    color: #0061ff;
+
 }
 
 .team-box{
@@ -431,32 +459,64 @@ h6{
     background: #a2d39b;
 }
 
+.designit:hover{
+    border: 10px solid #d0e9cd;
+}
+
 .arizona{
     background: #61082b;
+}
+
+.arizona:hover{
+    border: 10px solid #b08495;
 }
 
 .florida{
     background: #0093ce;
 }
 
+.florida:hover{
+    border: 10px solid #80c9e6;
+}
+
 .topps{
     background: #ff1c1c;
+}
+
+.topps:hover{
+    border: 10px solid #ff8e8e;
 }
 
 .world_bicycle_relief{
     background: #d5001f;
 }
 
+.world_bicycle_relief:hover{
+    border: 10px solid #ea808f;
+}
+
 .hearst{
     background: #b4d0e7;
+}
+
+.hearst:hover{
+    border: 10px solid #d9e7f3;
 }
 
 .lonely{
     background: #0d2481;
 }
 
+.lonely:hover{
+    border: 10px solid #8692c0;
+}
+
 .clear{
     background: #ffd830;
+}
+
+.clear:hover{
+    border: 10px solid #ffeb98;
 }
 
 .team-box .info-box{
@@ -527,6 +587,10 @@ h6{
     position: absolute;
     right: 0;
     top: 35%;
+    border: none;
+    width: 230px;
+    height: 25px;
+    background: white;
 }
 
 /* questions box */
@@ -562,7 +626,8 @@ h6{
 /* footer */
 footer{
     background: black;
-    height: 400px;
+    height: 450px;
+    margin-top: 100px;
 }
 
 .col-footer{
