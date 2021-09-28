@@ -155,14 +155,14 @@ i {
     margin: 0 auto;
 }
 
-aside {
+.sidebar {
     float: left;
     width: 30%;
     height: auto;
     border: 1px solid lightgray;
 }
 
-section {
+.main-content {
     float: left;
     width: 30%;
     height: auto;
@@ -176,7 +176,7 @@ section {
     margin-left: 10px;
 }
 
-/* sidebar left */
+/* sidebar left-right*/
 
 .main-icon i{
     font-size: 16px;
@@ -303,12 +303,12 @@ h6{
 .partner-txt{
     float: left;
     width: 50%;
-    padding-left: 45px;
+    padding-left: 40px;
     padding-right: 0;
 }
 
 .partner-txt > span{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .button-partner button{
@@ -352,5 +352,61 @@ h6{
 }
 
 .Bsection span{
-    font-size: 13px;
+    font-size: 12px;
+}
+
+/* team partner */
+.team{
+    margin-top: 150px;
+}
+
+.title-team{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.title-team h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.title-team a{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.team-box{
+    width: 100%;
+}
+
+.team-box .box{
+    float: left;
+    width: 30%;
+    height: 460px;
+    margin: 0 auto;
+    background: blue;
+}
+
+.team-box .txt-box{
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+.img-box{
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.img-box img{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
