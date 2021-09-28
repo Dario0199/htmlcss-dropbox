@@ -387,14 +387,6 @@ h6{
     background: blue;
 }
 
-.team-box .txt-box{
-    float: left;
-    width: 40%;
-    height: auto;
-    margin: 0 auto;
-    background: #f5f5f5;
-}
-
 .img-box{
     float: left;
     width: 50%;
@@ -403,7 +395,7 @@ h6{
 }
 
 .img-box img{
-    width: 150px;
+    width: 120px;
     height: auto;
     position: absolute;
     top: 50%;
@@ -420,11 +412,6 @@ h6{
     background: #61082b;
 }
 
-.arizona img{
-    width: 120px;
-    height: autos;
-}
-
 .florida{
     background: #0093ce;
 }
@@ -433,7 +420,49 @@ h6{
     background: #ff1c1c;
 }
 
-.topps img{
+.world_bicycle_relief{
+    background: #d5001f;
+}
+
+.hearst{
+    background: #b4d0e7;
+}
+
+.lonely{
+    background: #0d2481;
+}
+
+.clear{
+    background: #ffd830;
+}
+
+.team-box .info-box{
+    float: left;
+    width: 40%;
+    height: 460px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 60px 60px;
+}
+
+.info-box img{
     width: 120px;
     height: auto;
+    margin-bottom: 40px;
 }
+
+.info-box .border{
+    width: 10%;
+}
+
+.txt-box{
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.txt-box, .signature{
+    font-size: 13px;
+    font-weight: 500;
+}
+
