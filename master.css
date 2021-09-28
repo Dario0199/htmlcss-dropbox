@@ -466,3 +466,73 @@ h6{
     font-weight: 500;
 }
 
+/* free trial */
+
+.free-trial{
+    background: #b4d0e7;
+    width: 100%;
+    height: 300px;
+}
+
+.free-trial .container3{
+    margin-top: 0;
+}
+
+.title-trial{
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.title-trial h3{
+    font-size: 30px;
+    color: #630127;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);   
+}
+
+.button-trial{
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.button-trial button{
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+
+/* questions box */
+.questions-box{
+    margin-top: 100px;
+    
+}
+
+.title-questions{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
+.title-questions h4{
+    font-size: 25px;
+}
+
+.questions{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    line-height: 80px;
+}
+
+.questions i{
+    float: right;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 80px;
+
+}
